@@ -1,0 +1,67 @@
+html,body{
+  overflow-x: hidden;
+
+
+}
+.nav-link {
+    color: white !important;
+}
+
+.carousel-caption{
+  position: absolute;
+  top: 38%;
+  text-transform: uppercase;
+}
+
+.carousel-item{
+  height: 95vh;
+}
+
+.navbar{
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: .9rem ;
+  letter-spacing: .1rem;
+  background-color: #845EC2 !important;
+  color: white !important;
+  
+}
+button{
+  width: 90px ;
+  height: 30px;
+}
+
+.bg-primary{
+  background-color: #845EC2 !important;
+  margin: 0;
+}
+
+.portofolio{
+  margin-bottom: 23px;
+  padding: 0;
+}
+
+.portofolio img{
+  max-width: 100%;
+  transition: transform .5s ease;
+
+}
+.row.no-padding [class*=col-] {
+  padding: 0;
+}
+
+
+.portofolio img:hover{
+  max-width: 100%;
+  transform: scale(1.1);
+  cursor: zoom-in;
+}
+
+footer{
+  background-color: #845EC2;
+  margin: 0;
+}
+
+.jumbotron .container-fluid{
+  margin-bottom: 0;
+}
